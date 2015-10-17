@@ -1,9 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var DateInfo = require('./dateinfo');
+var DateGroup = require('./dategroup');
 
-setInterval(function () {
-  ReactDOM.render(<DateInfo/>,
-                  document.getElementById('app'));
-}, 1000);
+ReactDOM.render(<DateGroup/>,
+                document.getElementById('app'));
 
